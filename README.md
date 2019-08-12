@@ -159,32 +159,32 @@ dirá si estás preparada para el siguiente paso del proceso de postulación,
 o si deberás estudiar un poco más y repetir la entrevista.
 
 ## Parte V: Desafíos para resolver y entregar
-​
+
 Esta partes del proceso de postulación consiste en hacer algunos desafíos.
 El gran objetivo de esta
 etapa es conocer algunos retos reales que las empresas hacen como
 parte del proceso de selección. Asi que, que mejor que haber visto un par
 antes?
-​
+
 ### Desafíos
 [Los pueden ver acá](https://docs.google.com/document/d/1mJJ86hnKxaBLC6vjQi71WhVshB4TCER4rrI4OaZbdbk/edit?usp=sharing)
-​
+
 Los niveles de cada desafío son los siguientes:
-​
+
 **Nivel 1** Desafíos 1 y 2
-​
+
 **Nivel 2** Desafíos 3, 4 y 5
-​
+
 **Nivel 3** Desafíos 6 y 7
-​
+
 Deben elegir una opción de desafíos a realizar:
-​
+
 **Opción 1**
-​
+
 1 Proyecto nivel 3
-​
+
 **Opción 2**
-​
+
 1 Proyecto nivel 2 + 1 proyectos nivel 1
 
 ## Recursos externos
