@@ -1,8 +1,4 @@
-  
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
+
 
 .img-result{
   border-radius: 5%;
@@ -18,8 +14,9 @@ header{
   background-color: white;
   top:0px;
   padding-top:25px;
-  margin-bottom: 25px;
+  padding-bottom: 10px;
   z-index: 500;
+font-family: sans-serif;
 
 
 }
@@ -30,6 +27,7 @@ header i{
 .pinterest{
   font-size: 2em;
   color: red;
+  margin-right: 15px;
 }
 header span{
   padding: 10px;
@@ -46,18 +44,85 @@ header span{
   color: #333;
   font-size: 16px;
   font-weight: 600;
-  padding: 0 20px 0 22px;
+  height: 100%;
+  outline: none;
   width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.fa-search{
+  padding:15px;
 }
 
 .all-items{
   display: flex;
   justify-content: space-around;
 }
+
 .container-result{
   margin:0 auto;
   width: 90%;
   position: relative;
   padding-top: 80px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 10px;
+  -webkit-column-fill: auto;
+  -moz-column-count: 3;
+  -moz-column-gap: 10px;
+  -moz-column-fill: auto;
+  column-count: 4;
+  column-gap: 5px;
+  column-fill: auto;
+
+}
+.container-result .img-result:hover{
+  opacity: 0.6;
 }
 
+/*modal*/
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 990;
+  height: 100vh;
+  overflow-x: scroll;
+
+  
+}
+
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+.img-style{
+display: flex;
+margin: auto;
+padding-top: 20px;
+margin-bottom: 20px;
+}
+.fa-times{
+  font-size: 1.5em;
+}
+.button-group{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px
+}
+.button-group:hover{
+  opacity: 0.6;
+}
