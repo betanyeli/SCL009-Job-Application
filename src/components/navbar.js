@@ -145,10 +145,9 @@ class Navbar extends React.Component {
                     </div>
 
                     <div className="all-items">
-                        <span ><b>Inicio</b></span>
-                        <span>Siguiendo</span>
-                        <span><i className="fab fa-adn"></i></span>
-                        <span>Ang</span>
+                        <span className="inicio"><b>Inicio</b></span>
+                        <span className="siguiendo">Siguiendo</span>
+                        <span><i className="fab fa-adn"> </i> Ang </span>
                         <span><i className="fas fa-comment-dots icon-group"></i></span>
                         <span><i className="fas fa-bell icon-group"></i></span>
                         <span><i className="fas fa-ellipsis-h icon-group"></i></span>
@@ -159,14 +158,14 @@ class Navbar extends React.Component {
 
                 
                 <Modal show={this.state.show} img={this.state.img} handleClose={this.hideModal} />
-
+                <div className="container-result">{this.printImg()}</div>
                 <InfiniteScroll
                     dataLength={this.state.imagesResult.length}
                     next={this.scrollFunction}
                     hasMore={true}
                     loader={<h4 style={{ textAlign: "center" }}>Loading...</h4>}
                 >
-<div className="container-result">{this.printImg()}</div>
+
                 </InfiniteScroll> 
 
 
